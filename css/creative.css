@@ -340,7 +340,7 @@ button {
     margin-bottom: 50px;
   }
  }
-/* ============= Plan CSS =============== */
+/* ============= End Plan CSS =============== */
 
 /* ================ count number ========== */
 
@@ -364,7 +364,7 @@ button {
   }
  }
 
-/* ================ count number ========== */
+/* ================ End count number ========== */
 
 /* ============== social media links ============ */
 
@@ -384,7 +384,7 @@ button {
 }
 
 
-/* ============== social media links ============ */
+/* ============== End social media links ============ */
 
 .alert {
   display: none;
@@ -409,6 +409,17 @@ button {
 
 }
 
+@media (max-width: 578px) {
+  .photo {
+    text-align: center;
+  }
+  
+    .photo h3 {
+      font-size: 2rem;
+    }
+  }
+  
+/* ============= End photography css ================= */
 
 button:focus {
   outline: 1px dotted;
