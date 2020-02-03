@@ -390,6 +390,26 @@ button {
   display: none;
 }
 
+
+/* ============= photography css ================= */
+
+.photo img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.photo h3 {
+  font-size: 4rem;
+  background: linear-gradient(to left, rgba(59, 25, 127, 1), rgba(107, 45, 229, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  font-weight: 700;
+
+}
+
+
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
